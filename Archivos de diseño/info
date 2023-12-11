@@ -1,14 +1,14 @@
 {
-  "uuid": "ce3093ee2f841bb2407229a666026e52",
-  "path": "Offline/SENA%202023",
-  "name": "SENA 2023",
+  "uuid": "4f77aac0981d3a4494faa81ba828fc73",
+  "path": "Offline/sensor_transmisor_lora",
+  "name": "sensor_transmisor_lora",
   "content": "",
-  "created_at": "2023-03-15 08:33:47",
-  "updated_at": "2023-04-14 10:09:48",
+  "created_at": "2023-04-15 19:31:47",
+  "updated_at": "2023-04-15 20:03:35",
   "stick": "",
   "documents": [
     {
-      "uuid": "c875c105527356ec87a5379866f482cf",
+      "uuid": "0aec8f067ec33a61bc2867f28ac783a7",
       "title": "sensor_lora",
       "description": "",
       "docType": "1",
@@ -25,7 +25,7 @@
         "320400870eb297eb1df26973a3a5a9f4": 1,
         "2fb441dad43c4c8fbab367e13a465238": 2,
         "b210af5a1436310a86e8b108e2e5a90b": 1,
-        "6cd4c396eb8c4778a3564138a99d366d": 9,
+        "6cd4c396eb8c4778a3564138a99d366d": 10,
         "a5aacd49a37b1c69a99213318b5e7633": 3,
         "c20f0c938de14ceb9a16bbaa8a19734d": 1,
         "b5ff5131e6024714a4b1dcbcfa53546a": 1,
@@ -46,9 +46,9 @@
         ],
         [
           "KF350-3.5-2P",
-          9,
+          10,
           "CONN-TH_P3.50_KF350-3.5-2P",
-          "5V5,BAT1,GND-GND,I2C,SEN1,T1,T2,T3,VCC-3V3",
+          "5V5,BAT1,GND-GND,GND-GND1,I2C,SEN1,T1,T2,T3,VCC-3V3",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Supplier Part": "C474892",
@@ -173,7 +173,7 @@
           "TJ-S3216SW9TGLC2G-A5",
           1,
           "LED1206-R-RD",
-          "LED1",
+          "LED",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Supplier Part": "C192678",
@@ -352,26 +352,26 @@
           }
         ]
       ],
-      "updateTime": 1681484988,
-      "createTime": 1678887228,
+      "updateTime": 1681606488,
+      "createTime": 1681605108,
       "histories": [],
-      "created_at": "2023-03-15 08:33:48",
-      "updated_at": "2023-04-14 10:09:48"
+      "created_at": "2023-04-15 19:31:48",
+      "updated_at": "2023-04-15 19:54:48"
     },
     {
-      "uuid": "8492646f57e7d56607c3e78c996ba1f6",
-      "puuid": "ce3093ee2f841bb2407229a666026e52",
-      "title": "PCB_SENA 2023",
-      "filename": "PCB_SENA 2023.json",
+      "uuid": "3cb5be7983ef356f5254231de3b4e945",
+      "puuid": "4f77aac0981d3a4494faa81ba828fc73",
+      "title": "PCB_sensor_lora",
+      "filename": "PCB_sensor_lora.json",
       "description": "",
       "docType": "3",
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "5cf9551402aa47b695b0e6ac7af9a682": 1,
         "a09626c384624c09a6dbda79dc8616ce": 1,
+        "a5de4135b4e44a21809d6d5df147bc1e": 10,
+        "5cf9551402aa47b695b0e6ac7af9a682": 1,
         "1f1f9aa047ab4116a3802fd89b44282a": 1,
-        "a5de4135b4e44a21809d6d5df147bc1e": 9,
         "769626f169ec49d9867bc27eb696b6b9": 4,
         "c5ba8dc6e99040f8ac6c18f3bead23c6": 1,
         "07176b8a9734447a98cc301bfccee1a0": 1,
@@ -389,20 +389,16 @@
         "3665faf5c7824047877c19fd71b91289": 1
       },
       "BOM": [],
-      "updateTime": 1681483893,
-      "createTime": 1681398668,
+      "updateTime": 1681607015,
+      "createTime": 1681605147,
       "histories": [],
-      "created_at": "2023-04-13 10:11:08",
-      "updated_at": "2023-04-14 09:51:33"
+      "created_at": "2023-04-15 19:32:27",
+      "updated_at": "2023-04-15 20:03:35"
     }
   ],
-  "sort": [
-    "2ba80b1a4d31ee3a7f58b01fbe9ca466",
-    "c875c105527356ec87a5379866f482cf",
-    "2dba362fb699aa2ca6fa5e5e50b387f4"
-  ],
-  "title": "SENA 2023",
-  "foldername": "SENA 2023",
-  "schfilename": "SENA 2023.json",
-  "schfilemtime": 1681484988141
+  "sort": [],
+  "title": "sensor_transmisor_lora",
+  "foldername": "sensor_transmisor_lora",
+  "schfilename": "sensor_transmisor_lora.json",
+  "schfilemtime": 1681606488447
 }
