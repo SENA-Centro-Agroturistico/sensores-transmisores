@@ -1,0 +1,395 @@
+{
+  "uuid": "bff761c210a65d7d72d632f1129385b2",
+  "path": "Offline/SENA 2023 Gateway",
+  "name": "SENA 2023 Gateway",
+  "content": "",
+  "created_at": "2023-04-10 08:37:17",
+  "updated_at": "2023-10-25 12:19:22",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "f76154c93ee9a18a01e6e67448b80408",
+      "title": "receptor_lora",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "e108f72583324452a8ef0d073397a4e7": 4,
+        "51e938f76acf4b8d8eff0d5ce8e55953": 1,
+        "3e816afb66924607a75fdaf56089c1cd": 1,
+        "744d107897634ee59f4043ff6eb0db0d": 1,
+        "d06fd183e0b742e191bf48a41812063c": 1,
+        "e3be08079aa14ad891d42f46a7df393a": 1,
+        "4c1cbd719dcc43f3b6c9a2c8bda88dab": 1,
+        "404aa9221ff94de597b8734806e7c74f": 2,
+        "813fa641e6f5501a5ed8d6613c369a19": 1,
+        "c20f0c938de14ceb9a16bbaa8a19734d": 1,
+        "ee6ef103ed4bbe292b556d36588e703a": 2,
+        "3716d9ef261d4a168303d834ed06fb2e": 2,
+        "d1967012734640e5b2f2cc1ea764740b": 5,
+        "2ca88d533fb54dea9d665014ab9808c2": 2,
+        "5197eb2f389c4639963a16ab68c782f8": 2,
+        "7e2ae025ba3441fdb184283f7d09c92d": 2,
+        "54b9ebb30ec04f3a9a67d8fa51a8adf6": 3,
+        "b9fbeb6d76594d598e9ec696788ca37d": 1,
+        "3721972c581d4f99b226effb1db7a790": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1909763-1",
+          1,
+          "ANT-SMD_1909763-1",
+          "ANT",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C392444",
+            "BOM_Manufacturer": "TE Connectivity",
+            "BOM_Manufacturer Part": "1909763-1",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "5cf9551402aa47b695b0e6ac7af9a682",
+            "uuid": "3e816afb66924607a75fdaf56089c1cd"
+          }
+        ],
+        [
+          "XY301V-A-5.0-2P",
+          3,
+          "CONN-TH_XY301V-A-5.0-2P",
+          "BAT,I2C,IN-5V5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C557651",
+            "BOM_Manufacturer": "XINLAIYA(新莱亚)",
+            "BOM_Manufacturer Part": "XY301V-A-5.0-2P",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "634790b3a3634c79b0ccf4a39e7e3d95",
+            "uuid": "54b9ebb30ec04f3a9a67d8fa51a8adf6"
+          }
+        ],
+        [
+          "1uF",
+          1,
+          "CAP-D3.0×F1.5",
+          "C1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "a39e211d07fc49f09c02819227c89e5f",
+            "uuid": "e3be08079aa14ad891d42f46a7df393a"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "CAP-D5.0×F2.0",
+          "C3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9ab4ba27487f4e968ec8c676394520e2",
+            "uuid": "d06fd183e0b742e191bf48a41812063c"
+          }
+        ],
+        [
+          "1N4007",
+          2,
+          "DO-41_BD2.4-L4.7-P8.70-D0.9-RD",
+          "D1,D2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ST(先科)",
+            "BOM_Manufacturer Part": "1N4007",
+            "BOM_Supplier Part": "C106903",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "c2803222ad4b48fb94db0de548a6280a",
+            "uuid": "2ca88d533fb54dea9d665014ab9808c2"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x1",
+          2,
+          "HDR-M-2.54_1X1",
+          "J1,J2",
+          {
+            "BOM_Supplier Part": "C81276",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "",
+            "puuid": "19c77e72422b43b59c26b9fa67af5de4",
+            "uuid": "404aa9221ff94de597b8734806e7c74f"
+          }
+        ],
+        [
+          "daimob_jumper_smd x2",
+          4,
+          "DAIMOB_JUMPER_2P",
+          "JP5,JP6,JP7,JP8",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "d5629d9b886b4c11a2904bad6906f3b7",
+            "uuid": "e108f72583324452a8ef0d073397a4e7"
+          }
+        ],
+        [
+          "LED-TH-3mm_R",
+          1,
+          "LED-TH_BD3.0_RED",
+          "LED",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "204-10SDRD/S530-A3-L",
+            "BOM_Supplier Part": "C84774",
+            "BOM_Supplier": "LCSC",
+            "puuid": "bec79a4ea65a4f65ba290a03b598a762",
+            "uuid": "3721972c581d4f99b226effb1db7a790"
+          }
+        ],
+        [
+          "BAT2",
+          1,
+          "CONN-TH_2P-P2.00_PH-2A_C2319",
+          "P1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE(博穆精密)",
+            "BOM_Manufacturer Part": "PH-2A",
+            "BOM_Supplier Part": "C2319",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "c5ba8dc6e99040f8ac6c18f3bead23c6",
+            "uuid": "813fa641e6f5501a5ed8d6613c369a19"
+          }
+        ],
+        [
+          "2N3904",
+          2,
+          "TO-92-3_L5.1-W4.1-P1.27-L",
+          "Q1,Q2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ST(先科)",
+            "BOM_Manufacturer Part": "2N3904",
+            "BOM_Supplier Part": "C118538",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "6a8cc0d167d04926a8ac5a757ba65780",
+            "uuid": "5197eb2f389c4639963a16ab68c782f8"
+          }
+        ],
+        [
+          "120",
+          2,
+          "R_AXIAL-0.4",
+          "R1,R4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "5905db98cde4487fbb177070aa85bbe1",
+            "uuid": "d1967012734640e5b2f2cc1ea764740b"
+          }
+        ],
+        [
+          "470",
+          2,
+          "R_AXIAL-0.4",
+          "R2,R3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "5905db98cde4487fbb177070aa85bbe1",
+            "uuid": "d1967012734640e5b2f2cc1ea764740b"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R_AXIAL-0.4",
+          "R5",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "5905db98cde4487fbb177070aa85bbe1",
+            "uuid": "d1967012734640e5b2f2cc1ea764740b"
+          }
+        ],
+        [
+          "XY301V-A-5.0-3P",
+          2,
+          "CONN-TH_XY301V-A-5.0-3P",
+          "REL1,REL2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C557652",
+            "BOM_Manufacturer": "XINLAIYA(新莱亚)",
+            "BOM_Manufacturer Part": "XY301V-A-5.0-3P",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "ab7d166472c249aa975342ceea6ebf7d",
+            "uuid": "7e2ae025ba3441fdb184283f7d09c92d"
+          }
+        ],
+        [
+          "SRD-12VDC-SL-C",
+          2,
+          "RELAY-TH_SRD-XXVDC-XL-C",
+          "RELAY1,RELAY2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "松乐",
+            "BOM_Manufacturer Part": "SRD-12VDC-SL-C",
+            "BOM_Supplier Part": "C30431",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "318d2c3124b740ee9ca4dd4423ec5ad1",
+            "uuid": "ee6ef103ed4bbe292b556d36588e703a"
+          }
+        ],
+        [
+          "DAIMOB_RTC_DS3231_V2",
+          1,
+          "RTC-DS3231",
+          "RTC",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "d32f549e9a3d47df9ce0cb6b11ccb5cc",
+            "uuid": "b9fbeb6d76594d598e9ec696788ca37d"
+          }
+        ],
+        [
+          "ESP32 DEVKIT 30PIN",
+          1,
+          "DOIT-ESP32-DEVKIT-V1",
+          "U1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "Ali Express",
+            "BOM_Manufacturer Part": "ESP32 DEVKIT 30PIN",
+            "puuid": "15f507ec0f0b45e89e36e40a9201e20b",
+            "uuid": "744d107897634ee59f4043ff6eb0db0d"
+          }
+        ],
+        [
+          "CYPC817",
+          2,
+          "DIP-4_L6.4-W4.6-P2.54-LS7.6-BL",
+          "U2,U9",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C385061",
+            "BOM_Manufacturer": "OCIC(卓睿科)",
+            "BOM_Manufacturer Part": "CYPC817B",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "ba78760833d24815a3b603cbd251d282",
+            "uuid": "3716d9ef261d4a168303d834ed06fb2e"
+          }
+        ],
+        [
+          "daimob-TP4056-modulo",
+          1,
+          "DAIMOB-TP4056-MODULE-F",
+          "U3",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "ed41fed52bde46849d5d4aebe3274521",
+            "uuid": "c20f0c938de14ceb9a16bbaa8a19734d"
+          }
+        ],
+        [
+          "AZ1117EH-3.3TRG1",
+          1,
+          "SOT-223_L6.5-W3.5-P2.30-LS7.0-BR",
+          "U4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "DIODES(美台)",
+            "BOM_Manufacturer Part": "AZ1117EH-3.3TRG1",
+            "BOM_Supplier Part": "C108494",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "4ca399a3887148eeab92cd3a98a855b3",
+            "uuid": "4c1cbd719dcc43f3b6c9a2c8bda88dab"
+          }
+        ],
+        [
+          "SX1276S8S+T-X1",
+          1,
+          "WIRELM-SMD_SX1278S165SY-T-X1",
+          "U5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C718834",
+            "BOM_Manufacturer": "Vollgo",
+            "BOM_Manufacturer Part": "SX1276S8S+T-X1",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "260b866149284c8b8d595910a5341181",
+            "uuid": "51e938f76acf4b8d8eff0d5ce8e55953"
+          }
+        ]
+      ],
+      "updateTime": 1698254362,
+      "createTime": 1679346509,
+      "histories": [],
+      "created_at": "2023-03-20 16:08:29",
+      "updated_at": "2023-10-25 12:19:22"
+    },
+    {
+      "uuid": "5191a79de9a6a369f340a44cea9716a3",
+      "puuid": "bff761c210a65d7d72d632f1129385b2",
+      "title": "PCB_SENA 2023 Gateway",
+      "filename": "PCB_SENA 2023 Gateway.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "d5629d9b886b4c11a2904bad6906f3b7": 4,
+        "260b866149284c8b8d595910a5341181": 1,
+        "bec79a4ea65a4f65ba290a03b598a762": 1,
+        "5905db98cde4487fbb177070aa85bbe1": 5,
+        "d32f549e9a3d47df9ce0cb6b11ccb5cc": 1,
+        "634790b3a3634c79b0ccf4a39e7e3d95": 3,
+        "ab7d166472c249aa975342ceea6ebf7d": 2,
+        "5cf9551402aa47b695b0e6ac7af9a682": 1,
+        "15f507ec0f0b45e89e36e40a9201e20b": 1,
+        "a39e211d07fc49f09c02819227c89e5f": 1,
+        "9ab4ba27487f4e968ec8c676394520e2": 1,
+        "19c77e72422b43b59c26b9fa67af5de4": 2,
+        "ed41fed52bde46849d5d4aebe3274521": 1,
+        "4ca399a3887148eeab92cd3a98a855b3": 1,
+        "318d2c3124b740ee9ca4dd4423ec5ad1": 2,
+        "ba78760833d24815a3b603cbd251d282": 2,
+        "c2803222ad4b48fb94db0de548a6280a": 2,
+        "6a8cc0d167d04926a8ac5a757ba65780": 2,
+        "c5ba8dc6e99040f8ac6c18f3bead23c6": 1
+      },
+      "BOM": [],
+      "updateTime": 1682778574,
+      "createTime": 1682543931,
+      "histories": [],
+      "created_at": "2023-04-26 16:18:51",
+      "updated_at": "2023-04-29 09:29:34"
+    }
+  ],
+  "sort": [
+    "f76154c93ee9a18a01e6e67448b80408",
+    "0727a61e5a8ef7a519b6e6a693cd7f64"
+  ],
+  "title": "SENA 2023 Gateway",
+  "foldername": "SENA 2023 Gateway",
+  "schfilename": "SENA 2023 Gateway.json",
+  "schfilemtime": 1698254362500
+}

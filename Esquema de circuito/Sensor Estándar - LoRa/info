@@ -1,0 +1,267 @@
+{
+  "uuid": "bca39761ee575679100b71bf28d9b37e",
+  "path": "Offline/SENA 2023_modulo_mini_pro",
+  "name": "SENA 2023_modulo_mini_pro",
+  "content": "",
+  "created_at": "2023-04-13 12:25:01",
+  "updated_at": "2023-08-12 22:06:30",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "5db0e0bc1c7f1369dc344b04ab65f39f",
+      "title": "sensor_lora",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "51e938f76acf4b8d8eff0d5ce8e55953": 1,
+        "3e816afb66924607a75fdaf56089c1cd": 1,
+        "447354be192c4940afd8e2a9e3c13e14": 1,
+        "6cd4c396eb8c4778a3564138a99d366d": 9,
+        "c20f0c938de14ceb9a16bbaa8a19734d": 1,
+        "813fa641e6f5501a5ed8d6613c369a19": 1,
+        "d1967012734640e5b2f2cc1ea764740b": 4,
+        "3721972c581d4f99b226effb1db7a790": 1,
+        "404aa9221ff94de597b8734806e7c74f": 3,
+        "4c1cbd719dcc43f3b6c9a2c8bda88dab": 1,
+        "e3be08079aa14ad891d42f46a7df393a": 1,
+        "d06fd183e0b742e191bf48a41812063c": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "KF350-3.5-2P",
+          9,
+          "CONN-TH_P3.50_KF350-3.5-2P",
+          "5V5,BAT1,GND-GND,I2C,SEN1,T1,T2,T3,VCC-3V3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C474892",
+            "BOM_Manufacturer": "Cixi Kefa Elec",
+            "BOM_Manufacturer Part": "KF350-3.5-2P",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "a5de4135b4e44a21809d6d5df147bc1e",
+            "uuid": "6cd4c396eb8c4778a3564138a99d366d"
+          }
+        ],
+        [
+          "1909763-1",
+          1,
+          "ANT-SMD_1909763-1",
+          "ANT",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C392444",
+            "BOM_Manufacturer": "TE Connectivity",
+            "BOM_Manufacturer Part": "1909763-1",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "5cf9551402aa47b695b0e6ac7af9a682",
+            "uuid": "3e816afb66924607a75fdaf56089c1cd"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x1",
+          3,
+          "HDR-M-2.54_1X1",
+          "ANT2,J1,J2",
+          {
+            "BOM_Supplier Part": "C81276",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "",
+            "puuid": "19c77e72422b43b59c26b9fa67af5de4",
+            "uuid": "404aa9221ff94de597b8734806e7c74f"
+          }
+        ],
+        [
+          "1uF",
+          1,
+          "CAP-D3.0×F1.5",
+          "C1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "a39e211d07fc49f09c02819227c89e5f",
+            "uuid": "e3be08079aa14ad891d42f46a7df393a"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "CAP-D5.0×F2.0",
+          "C3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9ab4ba27487f4e968ec8c676394520e2",
+            "uuid": "d06fd183e0b742e191bf48a41812063c"
+          }
+        ],
+        [
+          "LED-TH-3mm_R",
+          1,
+          "LED-TH_BD3.0_RED",
+          "LED",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "204-10SDRD/S530-A3-L",
+            "BOM_Supplier Part": "C84774",
+            "BOM_Supplier": "LCSC",
+            "puuid": "bec79a4ea65a4f65ba290a03b598a762",
+            "uuid": "3721972c581d4f99b226effb1db7a790"
+          }
+        ],
+        [
+          "BAT2",
+          1,
+          "CONN-TH_2P-P2.00_PH-2A_C2319",
+          "P1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE(博穆精密)",
+            "BOM_Manufacturer Part": "PH-2A",
+            "BOM_Supplier Part": "C2319",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "c5ba8dc6e99040f8ac6c18f3bead23c6",
+            "uuid": "813fa641e6f5501a5ed8d6613c369a19"
+          }
+        ],
+        [
+          "4.7k",
+          3,
+          "R_AXIAL-0.4",
+          "R1,R2,R3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "5905db98cde4487fbb177070aa85bbe1",
+            "uuid": "d1967012734640e5b2f2cc1ea764740b"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R_AXIAL-0.4",
+          "R4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "5905db98cde4487fbb177070aa85bbe1",
+            "uuid": "d1967012734640e5b2f2cc1ea764740b"
+          }
+        ],
+        [
+          "SX1276S8S+T-X1",
+          1,
+          "WIRELM-SMD_SX1278S165SY-T-X1",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C718834",
+            "BOM_Manufacturer": "Vollgo",
+            "BOM_Manufacturer Part": "SX1276S8S+T-X1",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "260b866149284c8b8d595910a5341181",
+            "uuid": "51e938f76acf4b8d8eff0d5ce8e55953"
+          }
+        ],
+        [
+          "ARDUINO_PRO_MINI",
+          1,
+          "ARDUINOPROMINI_ARDUINO_PRO_MINI",
+          "U2",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "4839cd29495c4b7293f05c52fec90067",
+            "uuid": "447354be192c4940afd8e2a9e3c13e14"
+          }
+        ],
+        [
+          "daimob-TP4056-modulo",
+          1,
+          "DAIMOB-TP4056-MODULE-F",
+          "U3",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "ed41fed52bde46849d5d4aebe3274521",
+            "uuid": "c20f0c938de14ceb9a16bbaa8a19734d"
+          }
+        ],
+        [
+          "AZ1117EH-3.3TRG1",
+          1,
+          "SOT-223_L6.5-W3.5-P2.30-LS7.0-BR",
+          "U4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "DIODES(美台)",
+            "BOM_Manufacturer Part": "AZ1117EH-3.3TRG1",
+            "BOM_Supplier Part": "C108494",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "4ca399a3887148eeab92cd3a98a855b3",
+            "uuid": "4c1cbd719dcc43f3b6c9a2c8bda88dab"
+          }
+        ]
+      ],
+      "updateTime": 1691895960,
+      "createTime": 1678887228,
+      "histories": [],
+      "created_at": "2023-03-15 08:33:48",
+      "updated_at": "2023-08-12 22:06:00"
+    },
+    {
+      "uuid": "63ecae289f9210cfbd78fe2ee9bdc3b7",
+      "title": "PCB_SENA 2023",
+      "filename": "PCB_SENA 2023.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "19c77e72422b43b59c26b9fa67af5de4": 3,
+        "a39e211d07fc49f09c02819227c89e5f": 1,
+        "9ab4ba27487f4e968ec8c676394520e2": 1,
+        "5cf9551402aa47b695b0e6ac7af9a682": 1,
+        "bec79a4ea65a4f65ba290a03b598a762": 1,
+        "4ca399a3887148eeab92cd3a98a855b3": 1,
+        "5905db98cde4487fbb177070aa85bbe1": 4,
+        "a5de4135b4e44a21809d6d5df147bc1e": 9,
+        "ed41fed52bde46849d5d4aebe3274521": 1,
+        "260b866149284c8b8d595910a5341181": 1,
+        "4839cd29495c4b7293f05c52fec90067": 1,
+        "c5ba8dc6e99040f8ac6c18f3bead23c6": 1
+      },
+      "BOM": [],
+      "updateTime": 1691895990,
+      "createTime": 1681398668,
+      "histories": [],
+      "created_at": "2023-04-13 10:11:08",
+      "updated_at": "2023-08-12 22:06:30"
+    }
+  ],
+  "sort": [
+    "2ba80b1a4d31ee3a7f58b01fbe9ca466",
+    "5db0e0bc1c7f1369dc344b04ab65f39f",
+    "2dba362fb699aa2ca6fa5e5e50b387f4"
+  ],
+  "title": "SENA 2023_modulo_mini_pro",
+  "foldername": "SENA 2023_modulo_mini_pro",
+  "schfilename": "SENA 2023_modulo_mini_pro.json",
+  "schfilemtime": 1691895960264
+}
